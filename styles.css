@@ -1,66 +1,25 @@
-.td, .th {
-	text-align: center; /* Выравнивание по центру */
-    padding: 3px;
-}
-.table{ 
-    width: 500px; /* Ширина таблицы */
-    
-    
-}
-.th { 
-    background: #4682b4; /* Цвет фона */
-    color: white; /* Цвет текста */
-    border-bottom: 2px solid black; /* Линия снизу */
-}
-   
-.table{
-	width: 100%;
-	
-}
-.table .colour1 {
-
-  background: #FFBCAD;
-
-  padding: 10px 15px;
-  position: relative;
-  opacity: .7;
-}
-.table .colour2 {
-  background: #FFFFB5;
-  padding: 10px 15px;
-  position: relative;
-  opacity: .7;
-}
-
-.table .colour3 {
- 
-  background:  #FFB28B;
-  padding: 10px 15px;
-  position: relative;
-  opacity: .7;
-}
-.deleteRow {
-	color: red;
-	cursor: pointer;
-}
 
 .wrapper {	
+
 	float:center;	 
-	width:700px;
+	width: 100%;
 }
 .block {
+	width: 100%;
 	background: #F2EFE6;
     border: 1px solid #B25538;
-    padding: 10px;
-    margin: 20px;
+
+
 }
 .text1{
 	color : rgb(210, 105, 30);
 	font-weight: 600;
 	font-size: 20pt;
 	text-align: center;
+	 
 }
 .block1 {
+
     background: #EDD7C4; 
     padding: 10px; 
     border-radius: 5px; 
@@ -72,7 +31,22 @@
     border-radius: 5px; 
 	border: 1px solid #B25538;
    }
-   
+ 
+.td {
+	color : rgb(210, 105, 30);	
+	font-weight: 600;
+	text-align: center;
+    padding: 3px;
+	font-size: 14pt;
+	background-color: #fadbc8;
+	border-bottom: 1px solid #a52a2a;
+}
+ 
+.table{
+	width: 100%;
+	
+}
+  
 .button1{
     background: -moz-linear-gradient(#EDD7C4, #F9F8F6);
     background: -webkit-gradient(linear, 0 0, 0 100%, from(#EDD7C4), to(#F9F8F6));
@@ -97,19 +71,11 @@
 
 .text4{
 
+	color : rgb(210, 105, 30);	
+	font-size: 14pt;
 	text-align: center;
 }
-._empty {
-    width: 100%;
-	display: none;
-}
 
-#empty {
-	width: 100%;
-    display: none
-}
-
-#empty._isEmpty {
-	width: 100%;
-    display: block;
+table tr:nth-child(even) {
+    background-color: #EDD7C4;
 }
